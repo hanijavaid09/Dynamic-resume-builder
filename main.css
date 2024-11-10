@@ -1,0 +1,86 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 75px rgba(12, 126, 139, 0.336);
+    width: 80%;
+    max-width: 700px;
+    margin: 30px;
+}
+
+h1 {
+    border: 2px double black;
+    text-align: center;
+    color: #333;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: 4px double black;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+label {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #333;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: 4px double white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 4px double black;
+
+}
